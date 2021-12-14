@@ -73,9 +73,11 @@ html{
         min-height: 150px;
         margin: 20px;
     }
+
     .blue_c{
         display: flex;
     }
+    
     .blue_c .content{
         background-color: blue;
         min-height: 150px;
