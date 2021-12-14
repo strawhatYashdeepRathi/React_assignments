@@ -13,6 +13,21 @@
 <body>
     <div id="root"></div>
     <script type="text/babel">
+var myresponsiveLayout = React.createElement('div', 
+{className: "main_content"},
+React.createElement('div', {className:"yellow_c"},
+React.createElement('div', {className:"content"}, '', null),
+React.createElement('div', {className:"content"}, '', null),
+null),
+React.createElement('div', {className:"red_c"},
+React.createElement('div', {className:"content"}, '', null),
+null),
+React.createElement('div', {className:"blue_c"},
+React.createElement('div', {className:"content"}, '', null),
+React.createElement('div', {className:"content"}, '', null),
+React.createElement('div', {className:"content"}, '', null),
+null),
+)
 //React Code here
  ReactDOM.render(<div></div>,document.getElementById('root'));
 
